@@ -1,0 +1,173 @@
+* {
+    background-color: #002b5a;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e1d82;
+}
+
+header {
+    background: #002b5a;
+    color: #4b97e7;
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    font-size: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #002246;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #55a3f6;
+    border-radius: 30px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #002b5a;
+    border-radius: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4b97e7;
+    text-decoration: underline;
+    font-size: 40px;
+    text-align: center;
+}
+
+#vid iframe {
+    display: block;
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vid h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#des p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#tem p {
+    text-indent: 30px;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+#tem h3 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#redes img {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icons a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#sus form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sus input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 600px;
+    max-width: 800px;
+}
+
+#sus label {
+    color: #4b97e7;
+    font-size: 25px;
+}
+
+#sus input {
+    color: white;
+    font-size: 30px;
+}
+
+#sus button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sus button:hover {
+    background: #218838;
+    border-radius: 3%;
+}
